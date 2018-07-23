@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124090271EA10CCC00A30B2D /* AMZNUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090031EA10CCC00A30B2D /* AMZNUIWebViewDelegate.m */; };
+		124090281EA10CCC00A30B2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090051EA10CCC00A30B2D /* AppDelegate.m */; };
+		124090291EA10CCC00A30B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124090061EA10CCC00A30B2D /* Assets.xcassets */; };
+		1240902A1EA10CCC00A30B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124090071EA10CCC00A30B2D /* LaunchScreen.storyboard */; };
+		1240902B1EA10CCC00A30B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124090091EA10CCC00A30B2D /* Main.storyboard */; };
+		1240902C1EA10CCC00A30B2D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1240900C1EA10CCC00A30B2D /* Constants.m */; };
+		1240902E1EA10CCC00A30B2D /* CodeChallengeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090111EA10CCC00A30B2D /* CodeChallengeGenerator.m */; };
+		1240902F1EA10CCC00A30B2D /* CommunicationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090131EA10CCC00A30B2D /* CommunicationUtil.m */; };
+		124090301EA10CCC00A30B2D /* DrsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090151EA10CCC00A30B2D /* DrsUtil.m */; };
+		124090311EA10CCC00A30B2D /* IdentityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090171EA10CCC00A30B2D /* IdentityHandler.m */; };
+		124090321EA10CCC00A30B2D /* TokenGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090191EA10CCC00A30B2D /* TokenGenerator.m */; };
+		124090331EA10CCC00A30B2D /* AMZNUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1240901C1EA10CCC00A30B2D /* AMZNUIWebViewController.m */; };
+		124090341EA10CCC00A30B2D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1240901E1EA10CCC00A30B2D /* BaseViewController.m */; };
+		124090351EA10CCC00A30B2D /* DRSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090201EA10CCC00A30B2D /* DRSMainViewController.m */; };
+		124090361EA10CCC00A30B2D /* SetupProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090221EA10CCC00A30B2D /* SetupProductViewController.m */; };
+		124090371EA10CCC00A30B2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 124090231EA10CCC00A30B2D /* main.m */; };
+		124090381EA10CCC00A30B2D /* RemindMeLater.html in Resources */ = {isa = PBXBuildFile; fileRef = 124090251EA10CCC00A30B2D /* RemindMeLater.html */; };
+		124090391EA10CCC00A30B2D /* Skip.html in Resources */ = {isa = PBXBuildFile; fileRef = 124090261EA10CCC00A30B2D /* Skip.html */; };
+		125F391B1FCC264200697582 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F391A1FCC264100697582 /* LoginWithAmazon.framework */; };
+		12992BB21D8FFC5400B84E7D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992BB11D8FFC5400B84E7D /* SafariServices.framework */; };
+		12992BB41D8FFC5D00B84E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992BB31D8FFC5D00B84E7D /* UIKit.framework */; };
+		12992BB61D8FFC6600B84E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992BB51D8FFC6500B84E7D /* Foundation.framework */; };
+		12992BB81D8FFC6E00B84E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992BB71D8FFC6E00B84E7D /* CoreGraphics.framework */; };
+		12992BBD1D903E2700B84E7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992BBC1D903E2700B84E7D /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120AAE451D8C2F59006327DF /* DrsSampleIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrsSampleIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12370D381DA559F40024BAA5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		124090021EA10CCC00A30B2D /* AMZNUIWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMZNUIWebViewDelegate.h; path = ../AMZNUIWebViewDelegate.h; sourceTree = "<group>"; };
+		124090031EA10CCC00A30B2D /* AMZNUIWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMZNUIWebViewDelegate.m; path = ../AMZNUIWebViewDelegate.m; sourceTree = "<group>"; };
+		124090041EA10CCC00A30B2D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		124090051EA10CCC00A30B2D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		124090061EA10CCC00A30B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		124090081EA10CCC00A30B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1240900A1EA10CCC00A30B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1240900B1EA10CCC00A30B2D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1240900C1EA10CCC00A30B2D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1240900D1EA10CCC00A30B2D /* DrsDeviceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrsDeviceProtocol.h; sourceTree = "<group>"; };
+		1240900E1EA10CCC00A30B2D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124090101EA10CCC00A30B2D /* CodeChallengeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeChallengeGenerator.h; sourceTree = "<group>"; };
+		124090111EA10CCC00A30B2D /* CodeChallengeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeChallengeGenerator.m; sourceTree = "<group>"; };
+		124090121EA10CCC00A30B2D /* CommunicationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationUtil.h; sourceTree = "<group>"; };
+		124090131EA10CCC00A30B2D /* CommunicationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationUtil.m; sourceTree = "<group>"; };
+		124090141EA10CCC00A30B2D /* DrsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrsUtil.h; sourceTree = "<group>"; };
+		124090151EA10CCC00A30B2D /* DrsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrsUtil.m; sourceTree = "<group>"; };
+		124090161EA10CCC00A30B2D /* IdentityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentityHandler.h; sourceTree = "<group>"; };
+		124090171EA10CCC00A30B2D /* IdentityHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentityHandler.m; sourceTree = "<group>"; };
+		124090181EA10CCC00A30B2D /* TokenGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenGenerator.h; sourceTree = "<group>"; };
+		124090191EA10CCC00A30B2D /* TokenGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenGenerator.m; sourceTree = "<group>"; };
+		1240901B1EA10CCC00A30B2D /* AMZNUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMZNUIWebViewController.h; sourceTree = "<group>"; };
+		1240901C1EA10CCC00A30B2D /* AMZNUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMZNUIWebViewController.m; sourceTree = "<group>"; };
+		1240901D1EA10CCC00A30B2D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1240901E1EA10CCC00A30B2D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1240901F1EA10CCC00A30B2D /* DRSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSMainViewController.h; sourceTree = "<group>"; };
+		124090201EA10CCC00A30B2D /* DRSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSMainViewController.m; sourceTree = "<group>"; };
+		124090211EA10CCC00A30B2D /* SetupProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupProductViewController.h; sourceTree = "<group>"; };
+		124090221EA10CCC00A30B2D /* SetupProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupProductViewController.m; sourceTree = "<group>"; };
+		124090231EA10CCC00A30B2D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		124090251EA10CCC00A30B2D /* RemindMeLater.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RemindMeLater.html; sourceTree = "<group>"; };
+		124090261EA10CCC00A30B2D /* Skip.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Skip.html; sourceTree = "<group>"; };
+		125F391A1FCC264100697582 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = Library/LoginWithAmazon.framework; sourceTree = "<group>"; };
+		12992BB11D8FFC5400B84E7D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		12992BB31D8FFC5D00B84E7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12992BB51D8FFC6500B84E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12992BB71D8FFC6E00B84E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12992BBC1D903E2700B84E7D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120AAE421D8C2F59006327DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12992BBD1D903E2700B84E7D /* Security.framework in Frameworks */,
+				12992BB81D8FFC6E00B84E7D /* CoreGraphics.framework in Frameworks */,
+				12992BB61D8FFC6600B84E7D /* Foundation.framework in Frameworks */,
+				12992BB41D8FFC5D00B84E7D /* UIKit.framework in Frameworks */,
+				12992BB21D8FFC5400B84E7D /* SafariServices.framework in Frameworks */,
+				125F391B1FCC264200697582 /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120AAE3C1D8C2F58006327DF = {
+			isa = PBXGroup;
+			children = (
+				124090011EA10CCC00A30B2D /* DrsSampleIOSApp */,
+				12992BAC1D8FFC1600B84E7D /* Frameworks */,
+				120AAE461D8C2F59006327DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		120AAE461D8C2F59006327DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120AAE451D8C2F59006327DF /* DrsSampleIOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		124090011EA10CCC00A30B2D /* DrsSampleIOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				124090041EA10CCC00A30B2D /* AppDelegate.h */,
+				124090051EA10CCC00A30B2D /* AppDelegate.m */,
+				124090061EA10CCC00A30B2D /* Assets.xcassets */,
+				124090071EA10CCC00A30B2D /* LaunchScreen.storyboard */,
+				124090091EA10CCC00A30B2D /* Main.storyboard */,
+				1240900B1EA10CCC00A30B2D /* Constants.h */,
+				1240900C1EA10CCC00A30B2D /* Constants.m */,
+				1240900D1EA10CCC00A30B2D /* DrsDeviceProtocol.h */,
+				1240900E1EA10CCC00A30B2D /* Info.plist */,
+				1240900F1EA10CCC00A30B2D /* Utilities */,
+				1240901A1EA10CCC00A30B2D /* ViewControllers */,
+				124090231EA10CCC00A30B2D /* main.m */,
+				124090241EA10CCC00A30B2D /* pages */,
+			);
+			path = DrsSampleIOSApp;
+			sourceTree = "<group>";
+		};
+		1240900F1EA10CCC00A30B2D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				124090021EA10CCC00A30B2D /* AMZNUIWebViewDelegate.h */,
+				124090031EA10CCC00A30B2D /* AMZNUIWebViewDelegate.m */,
+				124090101EA10CCC00A30B2D /* CodeChallengeGenerator.h */,
+				124090111EA10CCC00A30B2D /* CodeChallengeGenerator.m */,
+				124090121EA10CCC00A30B2D /* CommunicationUtil.h */,
+				124090131EA10CCC00A30B2D /* CommunicationUtil.m */,
+				124090141EA10CCC00A30B2D /* DrsUtil.h */,
+				124090151EA10CCC00A30B2D /* DrsUtil.m */,
+				124090161EA10CCC00A30B2D /* IdentityHandler.h */,
+				124090171EA10CCC00A30B2D /* IdentityHandler.m */,
+				124090181EA10CCC00A30B2D /* TokenGenerator.h */,
+				124090191EA10CCC00A30B2D /* TokenGenerator.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1240901A1EA10CCC00A30B2D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1240901B1EA10CCC00A30B2D /* AMZNUIWebViewController.h */,
+				1240901C1EA10CCC00A30B2D /* AMZNUIWebViewController.m */,
+				1240901D1EA10CCC00A30B2D /* BaseViewController.h */,
+				1240901E1EA10CCC00A30B2D /* BaseViewController.m */,
+				1240901F1EA10CCC00A30B2D /* DRSMainViewController.h */,
+				124090201EA10CCC00A30B2D /* DRSMainViewController.m */,
+				124090211EA10CCC00A30B2D /* SetupProductViewController.h */,
+				124090221EA10CCC00A30B2D /* SetupProductViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		124090241EA10CCC00A30B2D /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				124090251EA10CCC00A30B2D /* RemindMeLater.html */,
+				124090261EA10CCC00A30B2D /* Skip.html */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		12992BAC1D8FFC1600B84E7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				125F391A1FCC264100697582 /* LoginWithAmazon.framework */,
+				12370D381DA559F40024BAA5 /* XCTest.framework */,
+				12992BBC1D903E2700B84E7D /* Security.framework */,
+				12992BB71D8FFC6E00B84E7D /* CoreGraphics.framework */,
+				12992BB51D8FFC6500B84E7D /* Foundation.framework */,
+				12992BB31D8FFC5D00B84E7D /* UIKit.framework */,
+				12992BB11D8FFC5400B84E7D /* SafariServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120AAE441D8C2F59006327DF /* DrsSampleIOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120AAE721D8C2F59006327DF /* Build configuration list for PBXNativeTarget "DrsSampleIOSApp" */;
+			buildPhases = (
+				120AAE411D8C2F59006327DF /* Sources */,
+				120AAE421D8C2F59006327DF /* Frameworks */,
+				120AAE431D8C2F59006327DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrsSampleIOSApp;
+			productName = iOSSampleApp;
+			productReference = 120AAE451D8C2F59006327DF /* DrsSampleIOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120AAE3D1D8C2F58006327DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Amazon;
+				TargetAttributes = {
+					120AAE441D8C2F59006327DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9Q9XG3UZWD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 120AAE401D8C2F58006327DF /* Build configuration list for PBXProject "DrsSampleIOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 120AAE3C1D8C2F58006327DF;
+			productRefGroup = 120AAE461D8C2F59006327DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120AAE441D8C2F59006327DF /* DrsSampleIOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120AAE431D8C2F59006327DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124090381EA10CCC00A30B2D /* RemindMeLater.html in Resources */,
+				1240902B1EA10CCC00A30B2D /* Main.storyboard in Resources */,
+				124090391EA10CCC00A30B2D /* Skip.html in Resources */,
+				1240902A1EA10CCC00A30B2D /* LaunchScreen.storyboard in Resources */,
+				124090291EA10CCC00A30B2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120AAE411D8C2F59006327DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124090371EA10CCC00A30B2D /* main.m in Sources */,
+				124090271EA10CCC00A30B2D /* AMZNUIWebViewDelegate.m in Sources */,
+				1240902C1EA10CCC00A30B2D /* Constants.m in Sources */,
+				124090321EA10CCC00A30B2D /* TokenGenerator.m in Sources */,
+				124090361EA10CCC00A30B2D /* SetupProductViewController.m in Sources */,
+				124090311EA10CCC00A30B2D /* IdentityHandler.m in Sources */,
+				124090351EA10CCC00A30B2D /* DRSMainViewController.m in Sources */,
+				1240902E1EA10CCC00A30B2D /* CodeChallengeGenerator.m in Sources */,
+				124090301EA10CCC00A30B2D /* DrsUtil.m in Sources */,
+				124090331EA10CCC00A30B2D /* AMZNUIWebViewController.m in Sources */,
+				1240902F1EA10CCC00A30B2D /* CommunicationUtil.m in Sources */,
+				124090281EA10CCC00A30B2D /* AppDelegate.m in Sources */,
+				124090341EA10CCC00A30B2D /* BaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		124090071EA10CCC00A30B2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124090081EA10CCC00A30B2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		124090091EA10CCC00A30B2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1240900A1EA10CCC00A30B2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		120AAE701D8C2F59006327DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120AAE711D8C2F59006327DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120AAE731D8C2F59006327DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9Q9XG3UZWD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/DrsSampleIOSApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.drs.DrsSampleIOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120AAE741D8C2F59006327DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9Q9XG3UZWD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/DrsSampleIOSApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.drs.DrsSampleIOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120AAE401D8C2F58006327DF /* Build configuration list for PBXProject "DrsSampleIOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120AAE701D8C2F59006327DF /* Debug */,
+				120AAE711D8C2F59006327DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120AAE721D8C2F59006327DF /* Build configuration list for PBXNativeTarget "DrsSampleIOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120AAE731D8C2F59006327DF /* Debug */,
+				120AAE741D8C2F59006327DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120AAE3D1D8C2F58006327DF /* Project object */;
+}

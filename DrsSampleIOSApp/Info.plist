@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50Ljg4Y2E2ZjRlOWU0MzQ0YWJiZjVjOWJlMjA0YmU0MWU4IiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi42ZWFkNjM2OTQxMGQ0MzllODJhYjIxMWVmMmU0N2I1ZSIsImJ1bmRsZVNlZWRJZCI6ImNvbS5hbWF6b24uZHJzLkRyc1NhbXBsZUlPU0FwcCIsImJ1bmRsZUlkIjoiY29tLmFtYXpvbi5kcnMuRHJzU2FtcGxlSU9TQXBwIiwiaXNzIjoiQW1hem9uIiwidHlwZSI6IkFQSUtleSIsImFwcFZhcmlhbnRJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC41ZDI3YmFjNjM0ZDE0YTA0ODYyN2RjNzBlMDI2MTM4NiIsInRydXN0UG9vbCI6bnVsbCwiYXBwSWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuNWQyN2JhYzYzNGQxNGEwNDg2MjdkYzcwZTAyNjEzODYiLCJpZCI6ImFlMzRkN2U2LTIxMjMtMTFlNy1hMTVmLTE3MWM3MzljODU0ZCIsImlhdCI6IjE0OTIxODIyNzg4MzQifQ==.mBS0dIz52jG/6sagfDSklbmDHMb4CA5Ul0LFl/kUfzG/VfP+SSVArLUTNnhwMTptBQYPesFUz2bsnn6w81QRkJftDgdpMXkxhOdhkHje3quOK7YXf2oVliqcN+qWTVIxkDY6YxcY6vMa8AuL0PIzcZ8NkmBpmgIeN4zJ0rOQDPvO9JTFf/BvmWm2GhLMIfp8nsaqUy4VaB06O2Hg+PNhXSdgRHUQCGSSH4OmDIjghvyU0TLwZGIVGnRa+z3Y2tFf3vKpnKFRHPC4bolOVJTqOYA7nb4BdI/uv/HD0XA9Hxtf9vgwJfVo/Kp9G/dsmHHnimUh5vfXPpRFysYiCnLQsw==</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>DrsSampleIOSApp</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.amazon.drs.DrsSampleIOSApp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.amazon.drs.DrsSampleIOSApp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
